@@ -12,4 +12,9 @@ public class MainController {
 
         return "hello";
     }
+    @GetMapping("/fetch")
+    public  String Save(){
+
+        return "retrieve";
+    }
 }
