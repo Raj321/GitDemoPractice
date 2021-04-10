@@ -16,7 +16,7 @@ public class MainController {
     @GetMapping("/fetch")
     public  String Save(){
 
-        return "commit and push";
+        return "retrieve";
     }
 
     @PostMapping("/save")
