@@ -2,6 +2,7 @@ package com.gitdemo.gitpractice.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController("/")
@@ -17,4 +18,12 @@ public class MainController {
 
         return "commit and push";
     }
+
+    @PostMapping("/save")
+    public  String saveObject(){
+
+        return "retrieve";
+    }
+
+
 }
