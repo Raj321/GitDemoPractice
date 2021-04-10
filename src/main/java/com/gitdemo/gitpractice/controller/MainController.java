@@ -29,7 +29,7 @@ public class MainController {
     @DeleteMapping("/delete")
     public  String deleteObject(){
 
-        return "delete from db";
+        return "delete object from db";
     }
 
 
