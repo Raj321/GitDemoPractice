@@ -14,7 +14,7 @@ public class MainController {
         return "hello";
     }
     @GetMapping("/fetch")
-    public  String Save(){
+    public  String getObject(){
 
         return "fetch the result";
     }
@@ -22,7 +22,7 @@ public class MainController {
     @PostMapping("/save")
     public  String saveObject(){
 
-        return "retrieve";
+        return "save into db";
     }
 
 
