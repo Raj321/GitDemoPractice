@@ -31,6 +31,11 @@ public class MainController {
 
         return "delete object from db";
     }
+    @DeleteMapping("/deleteByID")
+    public  String deleteObjectById(){
+
+        return "delete object from db";
+    }
 
 
 }
