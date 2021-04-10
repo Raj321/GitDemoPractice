@@ -15,6 +15,6 @@ public class MainController {
     @GetMapping("/fetch")
     public  String Save(){
 
-        return "change it from retrieve to get data from db";
+        return "retrieve";
     }
 }
